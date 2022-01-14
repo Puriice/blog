@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+/pages/@min
+/pages/api/auth.js
+/pages/api/login.js
+/pages/api/registor.js
+/styles/admin

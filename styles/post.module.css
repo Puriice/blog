@@ -1,0 +1,74 @@
+.post {
+  background: #e0dede;
+  margin: 1.5rem 0;
+  height: 10rem;
+  position: relative;
+  width: 99%;
+}
+.image {
+  background: #e0eeee;
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content_wrapper {
+  position: absolute;
+  top: 0;
+  left: 10rem;
+  height: 100%;
+  width: calc(100% - 10rem);
+  padding: 1rem;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 2rem;
+}
+.describe {
+  height: 4rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.more_btn {
+  position: absolute;
+  bottom: 1rem;
+  text-decoration: underline 1px #000;
+}
+.nopost_logo {
+  font-size: 2rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    align-items: center;
+  }
+  .post {
+    display: flex;
+    flex-direction: column;
+    width: 80vmin;
+    height: auto;
+  }
+  .image {
+    position: relative;
+    width: 80vmin;
+    height: 80vmin;
+  }
+  .content_wrapper {
+    position: static;
+  }
+}
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .wrapper {
+    height: max-content;
+  }
+} */

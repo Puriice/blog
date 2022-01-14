@@ -1,0 +1,38 @@
+.form {
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(251, 251, 251);
+}
+.label {
+  margin: 0.5rem 0;
+}
+.input {
+  height: 1.5rem;
+}
+.btn {
+  margin: 0.75rem 0;
+  align-self: flex-start;
+  color: #fff;
+  background: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  padding-inline-start: 20px;
+  margin: 0;
+}
+.show {
+  margin: 0.5rem 0;
+}

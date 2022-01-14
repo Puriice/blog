@@ -1,0 +1,14 @@
+.main {
+  margin: 5rem 0 0 1rem;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
